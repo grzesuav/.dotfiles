@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source ./install-common
+
+PLUGINS_DIR="dotbot-plugins"
+
+"${BASE_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -p "${PLUGINS_DIR}"/dotbot-yaourt/yaourt.py -d "${BASE_DIR}" -c "${BASE_DIR}/${CONFIG_DIR}/${1}${CONFIG_SUFFIX}"

@@ -1,0 +1,10 @@
+- shell:
+    - ['###################']
+    - ['# Install Arch apps']
+    - ['###################']
+
+- yaourt:
+  - atom
+  - powerline
+  - vim
+  - zsh-theme-powerlevel9k
