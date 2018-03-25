@@ -5,7 +5,7 @@ set -e
 BASE_CONFIG="base"
 CONFIG_SUFFIX=".yaml"
 
-PROFILES_DIR="dotbot-profiles"
+CONFIG_DIR="dotbot-profiles"
 
 DOTBOT_DIR="dotbot"
 DOTBOT_BIN="bin/dotbot"
