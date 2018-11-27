@@ -3,5 +3,6 @@
   - [sudo ln -s /usr/share/zsh-theme-powerlevel9k /usr/lib/zim/modules/prompt/external-themes/powerlevel9k, Powerlevel theme setup cd]
   - [git config --global user.email "grzesuav@gmail.com"]
   - [git config --global user.name "grzesuav"]
+  - [git config --global core.excludesfile ~/.dotfiles/.gitignore]
 - yaourt:
   - plasma5-applets-redshift-control
