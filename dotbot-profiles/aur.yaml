@@ -1,7 +1,9 @@
 - pacaur:
-  - gitkraken
   - nerd-fonts-complete-mono-glyphs
+  - vim-dein
   - htop-solarized
   - pkgfile
-  - lscolors-git
+  - redshift-minimal
+  - chromium-widevine
   - zsh-zim-git
+  - lscolors-git

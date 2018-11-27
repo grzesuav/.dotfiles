@@ -23,11 +23,17 @@ export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs
 # various settings END
 
 # load lscolors
-if [ -f /usr/share/LS_COLORS ]; then
-  eval $( dircolors -b /usr/share/LS_COLORS )  
+if [ -f /usr/share/LS_COLORS/dircolors.sh ]; then
+  source /usr/share/LS_COLORS/dircolors.sh
 else
   echo "There is no LS_COLORS installed, please install AUR/lscolors-git"
 fi
+
+#Colors
+alias diff='diff --color=auto'
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+
 
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
