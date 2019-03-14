@@ -4,5 +4,7 @@
   - [git config --global user.email "grzesuav@gmail.com"]
   - [git config --global user.name "grzesuav"]
   - [git config --global core.excludesfile ~/.dotfiles/.gitignore]
+  - [sudo systemctl enable bluetooth.service]
+  - [sudo systemctl start bluetooth.service]
 - yaourt:
   - plasma5-applets-redshift-control

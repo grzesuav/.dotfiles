@@ -1,0 +1,19 @@
+- shell:
+    - ['##########################']
+    - ['# Install development apps']
+    - ['##########################']
+
+- yaourt:
+  - intellij-idea-community-edition
+  - qemu
+  - docker
+  - docker-machine
+  - ebtables
+- pacaur:
+  - jdk
+  - intellij-jdk
+  - docker-machine-driver-kvm2
+  - minikube
+  - kubectl-bin
+  - kubectx
+

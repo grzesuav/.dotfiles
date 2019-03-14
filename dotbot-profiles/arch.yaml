@@ -4,6 +4,7 @@
     - ['###################']
 
 - yaourt:
+  - code
   - atom
   - powerline
   - vim
@@ -23,3 +24,8 @@
   - acpi
   - pepper-flash
   - ttf-liberation
+  - zsh-completions
+  - awesome-terminal-fonts
+  - bluez
+  - bluez-utils
+  - bluedevil

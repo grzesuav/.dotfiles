@@ -11,13 +11,15 @@ unsetopt beep
 zstyle :compinstall filename '/home/grzesiek/.zshrc'
 autoload -Uz compinit
 compinit
+setopt COMPLETE_ALIASES
+
 # End of lines added by compinstall
 
 # various settings BEGIN
 export EDITOR='vim'
 export CCACHE_PATH="/usr/bin"
 export CCACHE_DIR=/tmp/ccache
-export IDEA_JDK=/usr/lib/jvm/intellij-jvm
+export IDEA_JDK=/usr/lib/jvm/intellij-jdk
 export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
 export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
 # various settings END
@@ -34,9 +36,20 @@ alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 
+#powerline
 
+if [[ -f /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]
+then
+  powerline-daemon -q
+  . /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+else
+  echo "Missing  /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh"
+fi
+
+
+# load local settings
 if [ -f ~/.zshrc.local ]; then
-    source ~/.zshrc.local
+  source ~/.zshrc.local
 fi
 
 alias k=kubectl
