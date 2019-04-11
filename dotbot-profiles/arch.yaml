@@ -4,6 +4,7 @@
     - ['###################']
 
 - yaourt:
+  - bash-completion
   - code
   - atom
   - powerline
