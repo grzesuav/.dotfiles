@@ -9,9 +9,6 @@ unsetopt beep
 
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/grzesiek/.zshrc'
-autoload -Uz compinit
-compinit
-setopt COMPLETE_ALIASES
 
 # End of lines added by compinstall
 
@@ -51,5 +48,18 @@ fi
 if [ -f ~/.zshrc.local ]; then
   source ~/.zshrc.local
 fi
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+SOURCE=${(%):-%N}
+while [ -h "$SOURCE" ]; do
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+DOTFILES_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+echo "DIR is ${DOTFILES_DIR}"
+
+export PATH="${DOTFILES_DIR}/scripts/kubectl-plugins:$PATH"
 
 alias k=kubectl
