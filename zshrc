@@ -58,8 +58,6 @@ while [ -h "$SOURCE" ]; do
 done
 DOTFILES_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 
-echo "DIR is ${DOTFILES_DIR}"
-
 export PATH="${DOTFILES_DIR}/scripts/kubectl-plugins:$PATH"
 
 alias k=kubectl
