@@ -34,14 +34,17 @@ alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 
 #powerline
-
-if [[ -f /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]
-then
-  powerline-daemon -q
-  . /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
-else
-  echo "Missing  /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh"
-fi
+POWERLEVEL9K_KUBECONTEXT_BACKGROUND='011'
+POWERLEVEL9K_KUBECONTEXT_FOREGROUND='090'
+alias kon='POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs kubecontext)'
+alias koff='POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs )'
+#if [[ -f /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]
+#then
+#  powerline-daemon -q
+#  . /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh
+#else
+#  echo "Missing  /usr/lib/python3.7/site-packages/powerline/bindings/zsh/powerline.zsh"
+#fi
 
 
 # load local settings
