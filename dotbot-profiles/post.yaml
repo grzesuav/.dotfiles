@@ -6,5 +6,5 @@
   - [git config --global core.excludesfile ~/.dotfiles/.gitignore]
   - [sudo systemctl enable bluetooth.service]
   - [sudo systemctl start bluetooth.service]
-- yaourt:
+- yay:
   - plasma5-applets-redshift-control
