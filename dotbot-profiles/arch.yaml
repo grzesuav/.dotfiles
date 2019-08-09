@@ -3,7 +3,7 @@
     - ['# Install Arch apps']
     - ['###################']
 
-- yaourt:
+- yay:
   - bash-completion
   - code
   - atom
@@ -30,3 +30,4 @@
   - bluez
   - bluez-utils
   - bluedevil
+  - yakuake

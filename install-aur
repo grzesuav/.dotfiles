@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-
-source ./install-common
-
-PLUGINS_DIR="dotbot-plugins"
-
-echo "${BASE_DIR}/${CONFIG_DIR}/${1}${CONFIG_SUFFIX}"
-
-"${BASE_DIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -p "${PLUGINS_DIR}"/dotbot-pacaur/pacaur.py -d "${BASE_DIR}" -c "${BASE_DIR}/${CONFIG_DIR}/${1}${CONFIG_SUFFIX}"
