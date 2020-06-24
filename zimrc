@@ -25,7 +25,7 @@ zmodules=(autosuggestions directory environment git git-info history input utili
 
 # Set your desired prompt here
 POWERLEVEL9K_MODE='nerdfont-complete'
-zprompt_theme='powerlevel9k'
+zprompt_theme='powerlevel10k'
 
 #
 # Completion
