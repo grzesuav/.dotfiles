@@ -10,7 +10,7 @@
   - powerline
   - vim
   - wget
-  - zsh-theme-powerlevel9k
+  - zsh-theme-powerlevel10k
   - kwalletmanager
   - kwallet-pam
   - plasma-pa
@@ -31,3 +31,6 @@
   - bluez-utils
   - bluedevil
   - yakuake
+
+- shell:
+    - curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
