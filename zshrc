@@ -80,7 +80,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 # Set what highlighters will be used.
 # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters.md
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets cursor)
 
 # Customize the main highlighter styles.
 # See https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/docs/highlighters/main.md#how-to-tweak-it
@@ -162,6 +162,7 @@ POWERLEVEL9K_KUBECONTEXT_BACKGROUND='011'
 POWERLEVEL9K_KUBECONTEXT_FOREGROUND='090'
 alias kon='POWERLEVEL9K_KUBECONTEXT_DISABLED=false'
 alias koff='POWERLEVEL9K_KUBECONTEXT_DISABLED=true'
+export  POWERLEVEL9K_KUBECONTEXT_DISABLED=true
 
 
 # load local settings
