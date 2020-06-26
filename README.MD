@@ -4,4 +4,4 @@ Execute:
 * `./install-aur aur` installs [aur packages](./dotbot-profiles/aur.yaml)
 * `./install-yay arch` installs [arch pacman packages](./dotbot-profiles/arch.yaml)
  
-set terminal font to Fura Code Nerd Font Mono
+set terminal font to MesloLGS NF

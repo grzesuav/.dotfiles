@@ -1,7 +1,7 @@
 - yay:
-  - ttf-menlo-powerline-git
-  - zsh-theme-powerlevel10k-git
   - vim-dein
+  - zsh-theme-powerlevel10k-git
+  - ttf-meslo-nerd-font-powerlevel10k
   - htop-solarized
   - pkgfile
   - redshift-minimal
