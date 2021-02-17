@@ -134,7 +134,12 @@ zstyle :compinstall filename '/home/grzesiek/.zshrc'
 # End of lines added by compinstall
 
 # various settings BEGIN
-export EDITOR='vim'
+# Enable Ctrl-x-e to edit command line
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd v edit-command-line
+
+export EDITOR='nvim'
 export CCACHE_PATH="/usr/bin"
 export CCACHE_DIR=/tmp/ccache
 export IDEA_JDK=/usr/lib/jvm/intellij-jdk
