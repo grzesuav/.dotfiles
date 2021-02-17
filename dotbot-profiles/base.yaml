@@ -3,3 +3,4 @@
     ~/.zshrc:
     ~/.vimrc:
     ~/.Xresources:
+    ~/.config/nvim/init.vim: init.vim

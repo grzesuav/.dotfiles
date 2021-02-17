@@ -1,3 +1,5 @@
+scripts/kubectl-plugins
+
 #  Intellij #
 #############
 .idea/

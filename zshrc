@@ -54,9 +54,6 @@ WORDCHARS=${WORDCHARS//[\/]}
 # input
 #
 
-# Append `../` to your input for each `.` you type after an initial `..`
-zstyle ':zim:input' double-dot-expand yes
-
 #
 # termtitle
 #
@@ -170,6 +167,7 @@ if [ -f ~/.zshrc.local ]; then
   source ~/.zshrc.local
 fi
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH="${HOME}/go/bin:${PATH}"
 
 SOURCE=${(%):-%N}
 while [ -h "$SOURCE" ]; do
@@ -182,3 +180,4 @@ DOTFILES_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 export PATH="${DOTFILES_DIR}/scripts/kubectl-plugins:$PATH"
 
 alias k=kubectl
+export GOPATH="${HOME}/go"
