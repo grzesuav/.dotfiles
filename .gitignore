@@ -1,5 +1,5 @@
 scripts/kubectl-plugins
-
+scripts/basher
 #  Intellij #
 #############
 .idea/

@@ -1,0 +1,5 @@
+---
+- git:
+    '~/.dotfiles/scripts/basher':
+      url: 'https://github.com/basherpm/basher'
+      description: 'Basher - a package manager for shell scripts and functions'

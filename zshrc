@@ -172,7 +172,7 @@ if [ -f ~/.zshrc.local ]; then
   source ~/.zshrc.local
 fi
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-export PATH="${HOME}/go/bin:${PATH}"
+export PATH="${HOME}/go/bin:${HOME}/.cargo/bin:${PATH}"
 
 SOURCE=${(%):-%N}
 while [ -h "$SOURCE" ]; do
