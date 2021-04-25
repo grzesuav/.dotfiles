@@ -158,7 +158,7 @@ fi
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
-
+alias ip='ip -color=auto'
 #powerline
 POWERLEVEL9K_KUBECONTEXT_BACKGROUND='011'
 POWERLEVEL9K_KUBECONTEXT_FOREGROUND='090'
@@ -166,6 +166,8 @@ alias kon='POWERLEVEL9K_KUBECONTEXT_DISABLED=false'
 alias koff='POWERLEVEL9K_KUBECONTEXT_DISABLED=true'
 export  POWERLEVEL9K_KUBECONTEXT_DISABLED=true
 
+#other aliases
+alias vim='nvim'
 
 # load local settings
 if [ -f ~/.zshrc.local ]; then

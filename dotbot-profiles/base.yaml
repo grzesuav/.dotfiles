@@ -3,5 +3,7 @@
     ~/.zimrc:
     ~/.zshrc:
     ~/.vimrc:
+    ~/.zshenv:
+    ~/.zlogin:
     ~/.Xresources:
     ~/.config/nvim/init.vim: init.vim
