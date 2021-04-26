@@ -5,3 +5,4 @@ Execute:
 * `./install-yay arch` installs [arch pacman packages](./dotbot-profiles/arch.yaml)
  
 set terminal font to MesloLGS NF
+disable systemd-networkd in favour of NetworkManager
