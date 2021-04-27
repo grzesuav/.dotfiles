@@ -1,6 +1,5 @@
 - yay:
   - vim-dein
-  - zsh-theme-powerlevel10k-git
   - ttf-meslo-nerd-font-powerlevel10k
   - htop-solarized
   - pkgfile
