@@ -73,3 +73,6 @@ zmodule pvenv
 zmodule duration-info
 zstyle ':zim:duration-info' threshold 0.5
 
+zmodule fzf
+
+zmodule DarrinTisdale/zsh-aliases-exa
