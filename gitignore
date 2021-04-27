@@ -32,4 +32,4 @@
 *.sqlite
 
 # Python ignore fils
-venv
+**/venv
