@@ -27,9 +27,6 @@ zmodule zsh-users/zsh-completions
 # completion must be sourced after zsh-users/zsh-completions
 zmodule completion
 
-
-zmodule Aloxaf/fzf-tab
-
 # Fish-like autosuggestions for Zsh.
 zmodule zsh-users/zsh-autosuggestions
 
@@ -74,5 +71,7 @@ zmodule duration-info
 zstyle ':zim:duration-info' threshold 0.5
 
 zmodule fzf
+
+zmodule Aloxaf/fzf-tab
 
 zmodule DarrinTisdale/zsh-aliases-exa
