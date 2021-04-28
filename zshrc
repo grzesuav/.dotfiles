@@ -173,8 +173,7 @@ alias vim='nvim'
 if [ -f ~/.zshrc.local ]; then
   source ~/.zshrc.local
 fi
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:{HOME}/.local/bin:$PATH"
-export PATH="${HOME}/go/bin:${HOME}/.cargo/bin:${PATH}"
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:${HOME}/.local/bin:${HOME}/go/bin:${HOME}/.cargo/bin:${HOME}/.node_modules/bin:${DOTFILES_DIR}/scripts/kubectl-plugins:$PATH"
 
 SOURCE=${(%):-%N}
 while [ -h "$SOURCE" ]; do
@@ -183,9 +182,6 @@ while [ -h "$SOURCE" ]; do
   [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
 done
 DOTFILES_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
-
-export PATH="${DOTFILES_DIR}/scripts/kubectl-plugins:$PATH"
-export PATH="$HOME/.cargo/bin:$HOME/.node_modules/bin:$PATH"
 
 export npm_config_prefix=~/.node_modules
 
