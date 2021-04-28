@@ -187,3 +187,5 @@ export npm_config_prefix=~/.node_modules
 
 alias k=kubectl
 export GOPATH="${HOME}/go"
+zstyle ':completion:*' format '[%d]'
+
