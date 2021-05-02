@@ -12,6 +12,8 @@
     ~/.Xresources:
     ~/.config/nvim/init.vim: 
         path: config/nvim/init.vim
+    ~/.config/chromium-flags.conf:
+        path: config/chromium-flags.conf
     ~/.config/systemd/user/:
         glob: true
         path: units/*
