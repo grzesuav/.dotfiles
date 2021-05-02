@@ -38,3 +38,4 @@ let g:airline_theme = 'angr'
 " mappings
 nmap <F8> :TagbarToggle<CR>
 nmap <F9> ::NERDTreeToggle<CR>
+let g:CtrlSpaceDefaultMappingKey = "<C-space> "
