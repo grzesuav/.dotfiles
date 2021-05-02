@@ -1,4 +1,8 @@
----
+- defaults:
+    link:
+        relink: true
+        create: true
+- clean: ['~']
 - link:
     ~/.zimrc:
     ~/.zshrc:
@@ -6,4 +10,8 @@
     ~/.zshenv:
     ~/.zlogin:
     ~/.Xresources:
-    ~/.config/nvim/init.vim: init.vim
+    ~/.config/nvim/init.vim: 
+        path: config/nvim/init.vim
+    ~/.config/systemd/user/:
+        glob: true
+        path: units/*

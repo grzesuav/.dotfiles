@@ -1,0 +1,16 @@
+[Unit]
+Description=Mega mount by Rclone
+
+[Service]
+ExecStart=/usr/bin/rclone -vv mount \
+    --cache-dir /tmp/rclone \
+    --vfs-cache-mode writes \
+    mega: %h/docs/mega
+
+ExecStop=/bin/fusermount -u %h/docs/mega
+
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
