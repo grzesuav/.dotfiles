@@ -1,0 +1,16 @@
+[Unit]
+Description=Box mount by Rclone
+
+[Service]
+ExecStart=/usr/bin/rclone -vv mount \
+    --cache-dir /tmp/rclone \
+    --vfs-cache-mode writes \
+    box: %h/docs/box
+
+ExecStop=/bin/fusermount -u %h/docs/box
+
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target
