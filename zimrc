@@ -74,4 +74,7 @@ zmodule fzf
 
 zmodule Aloxaf/fzf-tab
 
+zmodule lincheney/fzf-tab-completion -s zsh/fzf-zsh-completion.sh
+
 zmodule DarrinTisdale/zsh-aliases-exa
+
