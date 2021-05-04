@@ -9,6 +9,7 @@
     ~/.vimrc:
     ~/.zshenv:
     ~/.zlogin:
+    ~/.p10k.zsh:
     ~/.Xresources:
     ~/.config/nvim/init.vim: 
         path: config/nvim/init.vim
