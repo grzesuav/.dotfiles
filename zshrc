@@ -150,8 +150,6 @@ export EDITOR='nvim'
 export CCACHE_PATH="/usr/bin"
 export CCACHE_DIR=/tmp/ccache
 export IDEA_JDK=/usr/lib/jvm/intellij-jdk
-export POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs kubecontext)
-export POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs time)
 # various settings END
 
 # load lscolors
@@ -166,12 +164,6 @@ alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
 alias ip='ip -color=auto'
-#powerline
-POWERLEVEL9K_KUBECONTEXT_BACKGROUND='011'
-POWERLEVEL9K_KUBECONTEXT_FOREGROUND='090'
-alias kon='POWERLEVEL9K_KUBECONTEXT_DISABLED=false'
-alias koff='POWERLEVEL9K_KUBECONTEXT_DISABLED=true'
-export  POWERLEVEL9K_KUBECONTEXT_DISABLED=true
 
 #other aliases
 alias vim='nvim'
