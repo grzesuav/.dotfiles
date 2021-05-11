@@ -1,9 +1,6 @@
 [submodule "dotbot"]
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
-[submodule "dotbot-plugins/dotbot-yay"]
-	path = dotbot-plugins/dotbot-yay
-	url = https://github.com/alexwh/dotbot-yay
 [submodule "dotbot-plugins/dotbot-git"]
 	path = dotbot-plugins/dotbot-git
 	url = https://github.com/DrDynamic/dotbot-git.git
