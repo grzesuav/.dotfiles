@@ -6,3 +6,4 @@ Execute:
  
 set terminal font to MesloLGS NF
 disable systemd-networkd in favour of NetworkManager
+enable ananicy
