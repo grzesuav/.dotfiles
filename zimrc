@@ -78,3 +78,4 @@ zmodule lincheney/fzf-tab-completion -s zsh/fzf-zsh-completion.sh
 
 zmodule DarrinTisdale/zsh-aliases-exa
 
+zmodule jeffreytse/zsh-vi-mode
