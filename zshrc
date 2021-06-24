@@ -130,7 +130,6 @@ zstyle :compinstall filename '/home/grzesiek/.zshrc'
 # End of lines added by compinstall
 
 # various settings BEGIN
-# Enable Ctrl-x-e to edit command line
 bindkey -M vicmd ' ' edit-command-line
 
 export EDITOR='nvim'
