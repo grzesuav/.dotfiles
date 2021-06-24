@@ -131,9 +131,7 @@ zstyle :compinstall filename '/home/grzesiek/.zshrc'
 
 # various settings BEGIN
 # Enable Ctrl-x-e to edit command line
-autoload -U edit-command-line
-zle -N edit-command-line
-bindkey -M vicmd v edit-command-line
+bindkey -M vicmd ' ' edit-command-line
 
 export EDITOR='nvim'
 export CCACHE_PATH="/usr/bin"
