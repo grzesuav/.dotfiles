@@ -12,6 +12,7 @@
   - powerline
   - neovim
   - wget
+  - procs
   - kwalletmanager
   - kwallet-pam
   - plasma-pa
@@ -40,9 +41,13 @@
   - rambox-bin
   - exa
   - fd
-  - nnn
+  - nnn-nerd
   - mpv
   - hdparm
   - nvidia-prime
   - ananicy-git
   - aur/nodejs-fx
+  - git-delta
+  - tealdeer
+  - bandwhich
+  - zoxide
