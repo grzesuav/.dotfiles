@@ -2,7 +2,11 @@
 #
 # User configuration sourced by interactive shells
 #
-
+# Download zimfw plugin manager if missing.
+if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
+  curl -fsSL --create-dirs -o ${ZIM_HOME}/zimfw.zsh \
+      https://github.com/zimfw/zimfw/releases/latest/download/zimfw.zsh
+fi
 # -----------------
 # Zsh configuration
 # -----------------
@@ -147,9 +151,9 @@ fi
 
 #Colors
 alias diff='diff --color=auto'
-alias grep='grep --color=auto'
-alias ls='ls --color=auto'
 alias ip='ip -color=auto'
+alias cat='bat'
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 #other aliases
 alias vim='nvim'

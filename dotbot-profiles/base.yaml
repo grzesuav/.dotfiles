@@ -6,15 +6,19 @@
 - link:
     ~/.zimrc:
     ~/.zshrc:
-    ~/.vimrc:
     ~/.zshenv:
     ~/.zlogin:
     ~/.p10k.zsh:
     ~/.Xresources:
-    ~/.config/nvim/init.vim: 
-        path: config/nvim/init.vim
+    ~/.config/nvim: 
+        path: config/nvim
     ~/.config/chromium-flags.conf:
         path: config/chromium-flags.conf
+    ~/.config/brave-flags.conf:
+        path: config/brave-flags.conf
     ~/.config/systemd/user/:
         glob: true
         path: units/*
+    ~/.local/share/dbus-1/services:
+        glob: true
+        path: dbus-1/services/*
