@@ -5,10 +5,10 @@
 
 - yay:
   - zsh
+  - acpid
   - curl
   - bash-completion
   - code
-  - atom
   - powerline
   - neovim
   - wget
@@ -38,16 +38,22 @@
   - rclone
   - fuse3
   - fuse2
-  - rambox-bin
-  - exa
+  - ferdium-bin
+  - lsd
+  - man-db
   - fd
   - nnn-nerd
   - mpv
   - hdparm
   - nvidia-prime
   - ananicy-git
-  - aur/nodejs-fx
+  - fx
   - git-delta
   - tealdeer
   - bandwhich
   - zoxide
+  - ripgrep
+  - intel-gpu-tools
+  - lazygit
+  - tree-sitter
+  - npm

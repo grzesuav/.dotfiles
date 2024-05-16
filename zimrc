@@ -14,6 +14,9 @@ zmodule termtitle
 # Utility aliases and functions. Adds colour to ls, grep and less.
 zmodule utility
 
+#zmodule magic-enter
+
+
 #
 # Prompt
 #
@@ -72,12 +75,10 @@ zstyle ':zim:duration-info' threshold 0.5
 
 zmodule fzf
 
+# it can be just one fzf completion module, this one seems like a better fit for me
 zmodule Aloxaf/fzf-tab
-
-zmodule lincheney/fzf-tab-completion -s zsh/fzf-zsh-completion.sh
-
-zmodule DarrinTisdale/zsh-aliases-exa
 
 zmodule jeffreytse/zsh-vi-mode
 
 export ZVM_VI_EDITOR=nvim
+export EDITOR=nvim
