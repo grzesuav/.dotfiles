@@ -57,6 +57,8 @@ Enable acpid service
 ```
 sudo systemctl enable acpid
 ```
+disable ballo as it causing issues with sleep
 
+enable tlp service
 https://wiki.archlinux.org/title/TLP
 
