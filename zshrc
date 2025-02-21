@@ -142,12 +142,6 @@ export CCACHE_DIR=/tmp/ccache
 export IDEA_JDK=/usr/lib/jvm/intellij-jdk
 # various settings END
 
-# load lscolors
-if [ -f /usr/share/LS_COLORS/dircolors.sh ]; then
-  source /usr/share/LS_COLORS/dircolors.sh
-else
-  echo "There is no LS_COLORS installed, please install AUR/lscolors-git"
-fi
 
 #Colors
 alias diff='diff --color=auto'
