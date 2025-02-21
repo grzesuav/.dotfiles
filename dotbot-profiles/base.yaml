@@ -1,8 +1,8 @@
 - defaults:
     link:
-        relink: true
-        create: true
-- clean: ['~']
+      relink: true
+      create: true
+- clean: ["~"]
 - link:
     ~/.zimrc:
     ~/.zshrc:
@@ -10,15 +10,15 @@
     ~/.zlogin:
     ~/.p10k.zsh:
     ~/.Xresources:
-    ~/.config/nvim: 
-        path: config/nvim
+    ~/.config/nvim:
+      path: config/nvim
     ~/.config/chromium-flags.conf:
-        path: config/chromium-flags.conf
+      path: config/chromium-flags.conf
     ~/.config/brave-flags.conf:
-        path: config/brave-flags.conf
+      path: config/brave-flags.conf
     ~/.config/systemd/user/:
-        glob: true
-        path: units/*
+      glob: true
+      path: units/*
     ~/.local/share/dbus-1/services:
-        glob: true
-        path: dbus-1/services/*
+      glob: true
+      path: dbus-1/services/*
