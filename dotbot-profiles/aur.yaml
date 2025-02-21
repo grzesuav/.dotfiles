@@ -1,8 +1,6 @@
 - yay:
-  - vim-dein
-  - ttf-meslo-nerd-font-powerlevel10k
-  - htop-solarized
-  - pkgfile
-  - chromium-widevine
-  - lscolors-git
-  - trousers
+    - ttf-meslo-nerd-font-powerlevel10k
+    - htop-solarized
+    - pkgfile
+    - chromium-widevine
+    - trousers
